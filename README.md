@@ -1,0 +1,2 @@
+# ResourceDic
+resource
