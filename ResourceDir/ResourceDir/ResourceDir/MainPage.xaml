@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:ResourceDir"
+             x:Class="ResourceDir.MainPage">
+    <!--<ContentPage.Resources>
+        <ResourceDictionary>
+                <Color x:Key="BackGroundColorBtn">Black</Color>
+        </ResourceDictionary>
+    </ContentPage.Resources>-->
+    <StackLayout VerticalOptions="Center"
+                 Spacing="10"
+                 >
+        <Button Text="Login"
+            TextColor="White"
+            BorderColor="Yellow"
+            BackgroundColor="{DynamicResource BackGroundColorBtn}"
+                FontAttributes="Bold"
+                BorderRadius="10"
+                />
+        <Button Text="Register"
+            TextColor="White"
+            BorderColor="Yellow"
+            BackgroundColor="{DynamicResource BackGroundColorBtn}"
+                FontAttributes="Bold"
+                BorderRadius="10"
+                />
+        <Button Text="change Color To Pink" Clicked="ChangeColor"
+           ></Button>
+    </StackLayout>
+
+</ContentPage>
